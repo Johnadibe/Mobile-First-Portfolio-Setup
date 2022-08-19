@@ -11,9 +11,6 @@
   box-sizing: border-box;
 }
 
-
-/* 1 rem = 10px */
-
 html {
   font-size: 65.5%;
 }
@@ -22,12 +19,6 @@ body {
   line-height: 1;
   overflow-x: hidden;
 }
-
-
-/* mobile styles */
-
-
-/* Reusable Padding Left and Right */
 
 .padding-left-right {
   padding: 0 2.4rem;
