@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* 1 rem = 10px */
+
+html {
+    font-size: 65.5%;
+}
+
+body {
+    line-height: 1;
+    overflow-x: hidden;
+}
+
+
+/* mobile styles */
+
+
+/* Reusable Padding Left and Right */
+
+.padding-left-right {
+    padding: 0 2.4rem;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    height: 4.8rem;
+    background-color: #3c3a39;
+    color: #fff;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+.headline-section {
+    background-color: #1c1a19;
+    color: #fff;
+    padding-top: 12rem;
+    padding-bottom: 18rem;
+    position: relative;
+}
+
+.headline-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.headline-text-box {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+#headline-primary {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.6rem;
+    line-height: 6.4rem;
+    letter-spacing: 0.037rem;
+    color: #ff6b00;
+}
+
+.headline-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+}
+
+.headline-description {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #e5e5e5;
+    margin-bottom: 2.4rem;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.headline-img-box {
+    position: absolute;
+    top: 60%;
+    right: 0;
+}
