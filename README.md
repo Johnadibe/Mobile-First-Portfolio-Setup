@@ -38,7 +38,7 @@ $ git clone {https://github.com/Johnadibe/Mobile-First-Portfolio-Setup.git}
 
 ### Usage
 
-> open your directory mobile-porfolio-setup/
+> open your directory math-magician/
 
 \_use vs-code or any IDE to view line code .
 
